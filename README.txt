@@ -1,4 +1,4 @@
-Insieme a questo file si trovano: 
+In questa repository si trovano: 
 	-Relazione progetto.
 	-CodiceArduino: cartella con i 4 script di Arduino.
 	-CodicePython: cartella con lo script utilizzato per prelevare i dati dalla porta seriale e inviarli al 	DBMS.
