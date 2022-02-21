@@ -4,9 +4,9 @@
 SoftwareSerial mySerial(2,3);
 String command;
 char c = " ";
-int step_mode = 4;
+int step_mode = 2;
 
-int stepsPerRevolution = 1024 * (step_mode/4) ;
+int stepsPerRevolution = 2048 * (step_mode/4) ;
 int mysteps = 1 * stepsPerRevolution;
 Stepper myStepper(stepsPerRevolution,8,9,10,11,step_mode);
 
